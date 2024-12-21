@@ -1,0 +1,17 @@
+-Callback-
+
+Simple example using a callback, where passing 'this' allows one
+class to invoke methods on another class.
+
+1. We define an interface for callback
+
+2. Class A(Button) that performs an action and notifies the
+	listener
+	
+	* Register the listener
+	*Simulate an event, like a button click
+
+3. Class B(App inheriting EventListener Interface and uses 'this' to register itself
+	* Pass the current object (App instance)
+	* Override the onEvent method for the callback
+	
